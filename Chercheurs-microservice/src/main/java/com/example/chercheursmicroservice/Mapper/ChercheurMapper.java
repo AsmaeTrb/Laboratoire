@@ -16,7 +16,6 @@ public class ChercheurMapper {
         c.setEnseignantId(dto.getEnseignantId());
         return c;
     }
-
     public ChercheurResponseDTO toDTO(Chercheur c) {
         ChercheurResponseDTO dto = new ChercheurResponseDTO();
         dto.setId(c.getId());
